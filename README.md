@@ -1,6 +1,5 @@
 echo "# vuvuzela" >> README.md
-git init  
-# phải cùng cấp thư mục
+git init  //phải cùng cấp thư mục
 
 git add README.md
 
