@@ -28,11 +28,8 @@ git merge trang-chu // chuyen nhung thay doi tu branch "trang-chu" sang branch "
 
 git branch -D <<branch>> // vd git branch -D trang-chu: xóa branch "trang-chu" sau khi hoàn thành tính năng để làm sạch master
 
-<<<<<<< HEAD
 git reset --soft <<id-commit>> //chuyen file tu trang thái commit sang trạng thái stage area // lay id commit git log or gitk, vd: git reset --soft
 
 git reset --mixed <<id-commit>> //chuyen file tu trang thái commit sang trạng thái working directory // lay id commit git log or gitk, vd: git reset --soft
 
 git reset --hard <<id-commit>> // chuyen file tu trang thai commit sang xóa hẳn file
-=======
->>>>>>> bb3c01dce8a9838ec9809638cf2932c0aa6c11f6
